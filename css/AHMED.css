@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+
+}
+nav{
+    display: flex;
+
+}
+nav ul li a {
+font-size: 15px;
+font-weight: 600;
+color: #fff  !important ;
+text-decoration: none;
+}
+header nav ul li a:hover {
+border-bottom: #f95e00 solid 3px;
+
+}
+header{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 65px;
+    border-bottom: #ffffff34 1px solid;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+.logo{
+height: 30px;
+}
+.top-paner{
+    width: 100%;
+    height: 530px;
+background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../img/home-background.jpg");
+background-attachment: fixed;
+background-size: cover;
+opacity: 0.9;
+
+padding: 170px 65px;
+color: #fff;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+
+}
+.top-paner h1{
+font-size: 38px;
+}
+.top-paner P{
+font-size:22PX ;
+
+}
+.top-paner button{
+    width: 160px;
+    height: 50px;
+    color: #fff;
+    background-color: #f95e00;
+    border-radius: 35px ;
+    font-weight: 600;
+}
+.top-paner .vera:hover{
+   
+    color: #ff7600;
+    background-color: #fff;
+    border: solid 2px #ff7600;
+    border-radius: 35px ;
+    font-weight: 600;
+}
+.section{
+    display:flex;
+    margin-top: 100px;
+    padding: 12px 35px;
+    font-weight: 300;
+     
+}
+.section h1{
+    font-weight: 400;
+}
+.section p{
+    font-size: 22px;
+    font-weight: 200px;
+    margin-left: -330px;
+    margin-top: 15px;
+    opacity: 0.5;
+    
+
+
+}
+.row  {
+  
+    font-weight: 300;
+    padding:7px 130px ;
+padding-right: 50px;
+}
+.row p {
+  
+    font-weight: 200;
+    opacity: 0.5;
+   
+}
+.row col cf {
+  
+    width: 100%;
+    height: auto;
+
+}
+.row i {
+    position: absolute;
+    /* top: 177; */
+    left: 45px;
+    border-radius: 50% 50%;
+    border: #efdfdfcf solid 20Px;
+    box-shadow: inset;  
+  
+}
+.cent{
+    margin-top: 120px;
+    font-weight: 300;
+text-align: center; 
+}
+.cent   p {
+    font-weight: 200;
+  opacity: 0.5;
+}
+.pro-card{
+height: 18em;
+    width: 14em;
+overflow: hidden;
+margin: 20pxpx;
+transition: 0.2s ease; 
+padding: 0px 12px;
+margin-top: 35px;
+box-sizing: border-box;
+}
+.pro-card:hover {
+    transform: scale(1.1);
+}
+.img-card img{
+width: 100%;
+opacity: 0.8;
+border-radius: 10px;
+}
+.img-card img:hover{
+    opacity: 1;
+} 
+.pro-info{
+    margin: 1em;
+    opacity: 1;
+}
+.infobbr{
+display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+.infobbr a{
+display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+color:green;
+}
+.infobbr p{
+display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+.adamaw{
+    padding: 10px 10px;
+}
+.cent{
+    font-weight: 800px;
+    font-size: 15px;
+    padding: 0px 15px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.cent i {
+ text-align: center;
+}
+.cent p{
+    font-weight: 600px;
+    font-size: 22px;
+ 
+}
+#pic{
+   
+ transition: 0.5s ease;
+    background-color: #ff7600;
+    display: flex;
+    opacity: 0.8;
+   
+} 
+#pic:hover{
+   
+    transform:scale(1.1);
+    opacity: 1;
+
+} 
+.cent .btn{
+    margin-bottom: 80px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #ff7600;
+    width: 160px;
+    height: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2px;
+    justify-content: center;
+ 
+}
+.cent .btn:hover{
+  
+    color: #f95e00;
+    background-color: #fff;
+    border: #f95e00 solid 1px;
+   
+
+}
+.top-paner2{
+    width: 100%;
+    height: 530px;
+background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../img/cta1-background.jpg");
+background-attachment: fixed;
+background-size: cover;
+opacity: 0.9;
+
+padding: 170px 65px;
+color: #fff;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.urman  button{
+   
+        margin-bottom: 80px;
+        border-radius: 30px;
+        color: #fff;
+        background-color: #f95e00;
+        width: 150px;
+        height: auto;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 2px;
+        justify-content: center;
+}
+.urman  .btn:hover{
+    color: #f95e00;
+    background-color: #fff;
+    border: #f95e00 solid 1px;
+   
+ 
+}
+.top-paner3{
+    width: 100%;
+    height: 530px;
+background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../img/cta2-background.jpg");
+background-attachment: fixed;
+background-size: cover;
+opacity: 0.9;
+text-align: center; 
+padding: 170px 65px;
+color: #fff;
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin-top: 30px;
+justify-content: center;
+
+}
+.top-paner3 .btn {
+    margin-bottom: 80px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #ff7600;
+    width: 160px;
+    height: 40px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2px;
+    justify-content: center;
+    z-index: 222;
+}
+.top-paner3 .btn:hover{
+  
+    color: #ff7600;
+    background-color: #fff;
+    border: #ff7600 solid 1px;
+  
+}
+.section2{
+width: 100%;
+height: 38px;
+padding: 12px 20px;
+display: flex;
+position:absolute;
+top: 120;
+left: 50;
+margin-bottom: 12px ;
+text-align: center;
+    justify-items: center;
+    margin: 15px 21px ;
+justify-content: space-between;
+    
+}
+.section2 .logo{
+    height: 38px;
+}
+.section2 nav ul  {
+
+    list-style: none;
+   display: flex;
+   gap: 25px;
+}
+.sper a{
+    font-size: 15px;
+    font-weight: 600px;
+   
+    padding: 10px 65px;
+    text-decoration: none;
+    color: #050505  !important ;
+   
+ 
+}
+.sper nav ul li a:hover{
+ 
+ color: #ff7600 !important;
+ border-bottom: #ff7600 solid 2px ;
+}
+.imgo{
+    display: flex;
+    width: 100%;
+    position: relative;
+    left: 100px;
+    top: -45px; 
+    right: -50px;
+    margin: 50px  70px;
+
+}
+.imgo i{
+    position: absolute;
+    left: 150PX;
+    top: 140PX;
+    margin: auto;
+    z-index: 22;
+}
+.imgo i:hover{
+  border: #ff7600 solid 22px ;
+  
+  
+}
+footer{
+    width: 100%;
+}
